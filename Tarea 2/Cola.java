@@ -32,5 +32,7 @@ public class Cola {
     public int size() {
         return elementos.size();
     }
-    
+    public void imprimir(){
+        System.out.println(elementos);
+    }
 }
